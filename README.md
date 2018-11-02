@@ -7,7 +7,7 @@
 | method 	| resource 			| params 				| result 		|
 | ---		| ---				| ---					| ---			|
 | GET 		| /					| N/a 					| none 			|
-| GET 		| /api 				| N/a 					| {result: int} |
+| GET 		| /api 		    | N/a 					| {result: int} |
 | PUT		| /api/:serviceName | serviceName: String 	| none or 400	|
 
 ## Usage
