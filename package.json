@@ -1,0 +1,19 @@
+{
+  "name": "history",
+  "version": "1.0.0",
+  "description": "### Purpose **Provide data to requesters about services.**",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+		"image": "docker build -t shadowit/history . --no-cache"
+  },
+  "author": "Avery Lindley <develop.lindley@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.4"
+  }
+}
