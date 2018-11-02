@@ -1,4 +1,5 @@
 # History :orange_book: 📖
+[![Build Status](https://travis-ci.org/shadow-IT/History.svg?branch=master)](https://travis-ci.org/shadow-IT/History)
 
 ## Purpose
 **To provide the historical data about EKG subscribers. This includes recent and historical data of the successes and failures to reach the subscriber.**
